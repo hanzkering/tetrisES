@@ -11,6 +11,9 @@ module.exports = { // export
   plugins: [
     new HtmlWebpackPlugin({
       title: '俄罗斯方块，ES测试版',
+      meta: {
+        viewport: 'width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no',
+      },
     }),
     new CleanWebpackPlugin(),
   ],
