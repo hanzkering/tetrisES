@@ -1,3 +1,54 @@
-#app {
+.app {
   background-color: #ddd;
+}
+
+.ground {
+  position: fixed;
+}
+
+.scoreboard {
+  position: fixed;
+  left: 30px;
+  top: 30px;
+  width: 160px;
+  height: 90px;
+  border: 2px solid #032B71;
+  text-align: center;
+}
+
+.preview {
+  position: fixed;
+  right: 30px;
+  top: 30px;
+  width: 160px;
+  height: 90px;
+  border: 2px solid #032B71;
+  text-align: center;
+}
+
+.controller img {
+  width: 80px;
+  height: 80px;
+}
+
+.controller-left {
+  position: fixed;
+  left: 40px;
+  top: 280px;
+}
+
+.controller-right {
+  position: fixed;
+  left: 130px;
+  top: 280px;
+}
+.controller-down {
+  position: fixed;
+  right: 130px;
+  top: 280px;
+}
+.controller-changer {
+  position: fixed;
+  right: 40px;
+  top: 280px;
 }
