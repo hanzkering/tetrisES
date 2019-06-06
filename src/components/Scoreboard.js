@@ -8,7 +8,9 @@ export default class Scoreboard {
 
   _render() {
     let template = `
-    <div id="scoreboard" class="scoreboard">计分板</div>
+    <div id="scoreboard" class="scoreboard">
+      <div id="score" class="score">0</div>
+    </div>
     `
     $('#app').append(template)
   }

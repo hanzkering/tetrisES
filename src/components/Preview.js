@@ -8,7 +8,7 @@ export default class Priview {
 
   _render() {
     let template = `
-    <div id="preview" class="preview">预览框</div>
+    <div id="preview" class="preview"></div>
     `
     $('#app').append(template)
   }

@@ -14,6 +14,7 @@ module.exports = { // export
       meta: {
         viewport: 'width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no',
       },
+      favicon: './favicon.png', 
     }),
     new CleanWebpackPlugin(),
   ],
@@ -27,7 +28,7 @@ module.exports = { // export
         ]
       },
       {
-        test: /\.(png|svg|jpg|gif)$/,
+        test: /\.(png|svg|jpg|gif|jpeg)$/,
         use: [
           'file-loader'
         ]

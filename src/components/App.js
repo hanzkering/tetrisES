@@ -12,23 +12,22 @@ import Controller from './Controller.js'
 // App 组件
 export default class App {
   constructor() {
+    
   }
 
   run() {
-    console.log('App Run')
-
     // 初始化环境信息
     this._initEnv()
     // 渲染 app DOM
     this._render()
-    // 初始化 Ground 战场
-    this._initGround()
     // 初始化计分板
     this._initScoreboard()
     // 初始化预览框
     this._initPreview()
     // 初始化控制器
     this._initController()
+    // 初始化 Ground 战场
+    this._initGround()
   }
 
   // 初始化环境信息
@@ -72,5 +71,6 @@ export default class App {
   _initController() {
     new Controller()
   }
+
 }
 // 后边不应该具有任何代码
